@@ -28,12 +28,14 @@ app = Flask(__name__)
 def welcome():
     return(
         '''
+    What the hell??????????
     Welcome to the Climate Analysis API!
-    Available Routes:
-    /api/v1.0/precipitation
-    /api/v1.0/stations
-    /api/v1.0/tobs
-    /api/v1.0/temp/start/end
+    \nAvailable Routes:
+    \n/api/v1.0/precipitation
+    \n/api/v1.0/stations
+    \n/api/v1.0/tobs
+    \n/api/v1.0/temp/start/end
+    How do I get this to print out 6 separate lines
     ''')
 
 
