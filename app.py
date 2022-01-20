@@ -27,16 +27,16 @@ app = Flask(__name__)
 @app.route('/')
 def welcome():
     return(
-        '''
-    What the hell??????????
-    Welcome to the Climate Analysis API!
-    \nAvailable Routes:
-    \n/api/v1.0/precipitation
-    \n/api/v1.0/stations
-    \n/api/v1.0/tobs
-    \n/api/v1.0/temp/start/end
+        """
+    What the hell?\n
+    Welcome to the Climate Analysis API!\n
+    Available Routes:\n
+    /api/v1.0/precipitation\n
+    /api/v1.0/stations\n
+    /api/v1.0/tobs\n
+    /api/v1.0/temp/start/end\n
     How do I get this to print out 6 separate lines
-    ''')
+    """)
 
 
 @app.route("/api/v1.0/precipitation")
