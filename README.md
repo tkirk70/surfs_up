@@ -15,3 +15,5 @@ Summary:
 - Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
 
 ![](surfing_dogs.gif)
+
+<img src="surfing_dogs.gif" width="700" height="500">
