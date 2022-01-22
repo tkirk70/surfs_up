@@ -23,8 +23,8 @@ jun_df.set_index(jun_df['Date'], inplace=True)
 jun_df.describe()
 
 ```
-| Statistic | June Temps |
-| --- | --- |
+| Statistic | June Temps |       
+| --- | --- |                    
 |count|  1700.000000 |
 |mean|  74.944118 |
 |std|  3.257417 |
@@ -41,3 +41,6 @@ Summary:
 <!-- ![](surfing_dogs.gif) -->
 
 <img src="surfing_dogs.gif" width="700" height="500">
+
+
+<!-- Special Thanks to @hmlanden for syntax and formatting help. -->
