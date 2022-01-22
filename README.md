@@ -4,11 +4,12 @@ OSU Module 9 - SQLite and Flask
 
 
 Overview of the analysis: 
-- Explain the purpose of this analysis.
-
+- We want temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round.
+- Gather temperature trends for Winter and Summer months over a seven-year span.
+   - Specifically for the months of December and June from nine different weather stations across the island of Oahu.
 
 Results:
-Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
+- Gather temperature trends for Winter and Summer months over a seven-year span.
 
 
 ```python
@@ -61,7 +62,8 @@ dec_df.describe()
 
 
 Summary:
-- Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+- Temperatures are slightly lower in December as compared with June, but it should not effect the business.
+- A deeper analysis would investigate precipitation in the Winter versus the Summer to see if that could have an impact on the business.
 
 <!-- ![](surfing_dogs.gif) -->
 
