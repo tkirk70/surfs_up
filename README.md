@@ -34,6 +34,19 @@ jun_df.describe()
 |75%|  77.000000 |
 |max|  85.000000 |
 
+```python
+
+# 1. Import the sqlalchemy extract function.
+from sqlalchemy import extract
+# 2. Write a query that filters the Measurement table to retrieve the temperatures for the month of December. )
+dec_results = session.query(Measurement.date, Measurement.tobs).filter(func.strftime("%m", Measurement.date) == "12")
+# 3. Create a DataFrame from the list of temperatures for the month of December. 
+dec_df = pd.DataFrame(dec_results, columns=['Date','December Temps'])
+dec_df.set_index(dec_df['Date'], inplace=True)
+dec_df.describe()
+
+```
+
 | Statistic | December Temps |       
 | --- | --- |                    
 |count|  1517.000000 |
