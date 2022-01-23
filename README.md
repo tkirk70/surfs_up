@@ -109,6 +109,8 @@ fig
 
 ```
 
+![](oahu_weather_stations.png)
+
 <!-- ![](surfing_dogs.gif) -->
 
 <img src="surfing_dogs.gif" width="700" height="500">
