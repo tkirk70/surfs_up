@@ -65,6 +65,18 @@ Summary:
 - Temperatures are slightly lower in December as compared with June, but it should not effect the business.
 - A deeper analysis would investigate precipitation in the Winter versus the Summer to see if that could have an impact on the business.
 
+
+```python
+
+query4 = f'SELECT s.station, s.name, AVG(m.tobs) AS average_temp, AVG(m.prcp) AS average_rainfall, COUNT(s.id) AS observations FROM measurement m JOIN station s ON m.station = s.station GROUP BY s.station'
+
+new_station_summary = pd.read_sql(query4, engine)
+new_station_summary
+
+```
+
+
+
 <!-- ![](surfing_dogs.gif) -->
 
 <img src="surfing_dogs.gif" width="700" height="500">
