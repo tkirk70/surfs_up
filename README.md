@@ -109,7 +109,7 @@ fig
 
 ```
 
-![](oahu_weather_stations.png)
+![](with_google_layer.PNG)
 
 <!-- ![](surfing_dogs.gif) -->
 
