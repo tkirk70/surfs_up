@@ -75,6 +75,9 @@ new_station_summary
 
 ```
 
+![](weather_station_summary.PNG)
+
+
 ```python
 
 # Get lat and long for each station
