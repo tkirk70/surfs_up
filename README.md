@@ -75,7 +75,36 @@ new_station_summary
 
 ```
 
+```python
 
+# Get lat and long for each station
+google_station_summary_df = station_summary_df[['station', 'name','latitude','longitude']]
+
+# Set parameters for the info_box.
+info_box_template = """
+<dl>
+<dt>Station Name</dt><dd>{station}</dd>
+<dt>Location</dt><dd>{name}</dd>
+<dt>Avg. Temp</dt><dd>{average_temp}</dd>
+<dt>Avg Rain</dt><dd>{average_rainfall}</dd>
+<dt>Observations</dt><dd>{observations}</dd>
+</dl>
+"""
+
+# Iterate through the df to populate info box.
+weather_station_info = [info_box_template.format(**row) for index, row in new_station_summary.iterrows()]
+
+# Retrieve lat, long to pass to gmaps.
+locations = google_station_summary_df[['latitude', 'longitude']]
+
+# 11a. Add a marker layer for each city to the map. 
+fig = gmaps.figure()
+marker_layer = gmaps.marker_layer(locations, info_box_content=weather_station_info)
+fig.add_layer(marker_layer)
+# 11b. Display the figure
+fig
+
+```
 
 <!-- ![](surfing_dogs.gif) -->
 
