@@ -122,4 +122,4 @@ Until then, keep dreaming of riding the wave to a successful adventure.
 <img src="surfing_dogs.gif" width="700" height="500">
 
 
-Special Thanks to ![@hmlanden](https://github.com/hmlanden) ![repository](https://github.com/hmlanden/SurfyAPY) for syntax and formatting help.
+Special Thanks to [@hmlanden's](https://github.com/hmlanden) [repository](https://github.com/hmlanden/SurfyAPY) for syntax and formatting help.
