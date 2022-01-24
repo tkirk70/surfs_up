@@ -113,7 +113,7 @@ fig
 
 
 Depending on which side of Oahu you are opening your shop may determine how successful you are.  More rain will fall on the eastern side of the island.
-A deeper dive into the microclimates of Oaho and the other Hawaiin islands would really boost investor confidence.
+A deeper dive into the microclimates of Oahu and the other Hawaiin islands would really boost investor confidence.
 
 Until then, keep dreaming of riding the wave to a successful adventure.
 
